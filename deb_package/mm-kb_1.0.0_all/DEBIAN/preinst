@@ -11,29 +11,5 @@ echo "Also, credits to Ko Naing Yè Minn (naingyeminn@gmail.com) dedicated to My
 echo "Official Github: https://github.com/naingyeminn/mm-kb"
 echo
 echo "This MM-KB software is packaged and licensed under the MIT License. (c) 2020 Salai Aung Myint Myat."
-echo "To continue installing software, you must agree the MIT license."
-echo "Enter [Y] to continue, or [n] to cancel the installation."
-echo
-echo "===Pre-installation [Started]==="
-
-while true; do
-    read -r -p "Do you wish to install this software? Select [Y/n]" _response
-    case "$_response" in
-      [Yy][Ee][Ss]|[Yy]) # Yes or Y (case-insensitive).
-		echo "press - YES"
-        break
-        ;;
-      [Nn][Oo]|[Nn])  # No or N.
-		echo "press - NO"
-        exit 1
-        ;;
-      *) # Anything else (including a blank) is invalid.
-        ;;
-    esac
-  done
-
-echo
-echo "===Pre-installation [Completed]==="
-echo
+echo "Assuming the user agree the MIT license by installing this software."
 exit 0
-
