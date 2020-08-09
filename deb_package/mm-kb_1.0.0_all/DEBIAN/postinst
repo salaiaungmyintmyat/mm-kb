@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# MM-KB app is licensed under the MIT License. (c) 2020 Salai Aung Myint Myat.
+# The license's description is found in the LICENSE.txt file.
+# Also, credits to Ko Naing Ye` Minn (naingyeminn@gmail.com).
+
+echo
+echo "installing segments..."
+echo "$PWD"
+sudo make install -C usr/bin/mm-kb/
+echo "configuring components..."
+ibus-daemon -rdx
+im-config -n ibus
+echo "done"
+
+exit
+

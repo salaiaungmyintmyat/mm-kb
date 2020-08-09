@@ -1,0 +1,41 @@
+Package: mm-kb
+Version: 1.0.0
+Architecture: all
+Maintainer: Salai Aung Myint Myat
+Homepage: https://github.com/salaiaungmyintmyat/mm-kb.git
+Depends: bash, make, ibus-table
+Pre-Depends: bash, make, ibus-table
+Description: MM-KB is a smart input Myanmar Keyboards.
+ In this package, it contains two types of Burmese Keyboard: Unicode and ZawGyi-One.
+ .
+ .
+ Input Keyboards
+ .
+           Burmese - mm-myanmar3, mm-smart, mm-zawnicode
+ .
+           Shan - shn-standard, shn-panglong
+ .
+ .
+ Changing System Fallback Font
+ .
+           After installation, your system font will be changed into ZawGyi-One. If you want to switch to Unicode fonts, search Myanmar Font Switcher by clicking the grid button at the bottom of the dash and run it. You can change the font you want in there.
+ .
+ .
+ After Installation
+ .
+           Now you can add the keyboard as follow.
+ .
+   - Go to **Settings > Region & Language**
+ .
+   - Click on **"+"** button and search **Burmese** input. You will see Burmese, Burmese (mm-smart), Burmese (mm-myanmar3), and Burmese (mm-zawgyi).
+ .
+   - **Shan (shn-standard)** and **Shan (shn-panglong)** inputs are also included and can be fond under **Others** input group using search. 
+ .
+   - Now you can change keyboard layout by pressing (**Super + Space**) key.
+ .
+ .
+ Credits
+ .
+           Thanks to Ko Naing Ye` Minn (naingyeminn@gmail.com) dedicated to Myanmar Keyboard for Ubuntu. 
+ .
+ Original Github: https://github.com/naingyeminn/mm-kb

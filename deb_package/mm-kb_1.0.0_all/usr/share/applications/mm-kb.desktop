@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=MM-KB Keyboard
+GenericName=MM-KB Keyboard
+Comment=Myanmar Keyboard for Ubuntu
+Exec=/usr/bin/mm-kb/mm-kb_run
+TryExec=/usr/bin/mm-kb/mm-kb_run
+Icon=/usr/share/icons/mm-kb_icon.xpm
+Terminal=true
+Type=Application
+Categories=Utility;
+Keywords=Tools;

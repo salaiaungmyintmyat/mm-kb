@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# MM-KB app is licensed under the MIT License. (c) 2020 Salai Aung Myint Myat.
+# The license's description is found in the LICENSE.txt file.
+# Also, credits to Ko Naing Ye` Minn (naingyeminn@gmail.com).
+
+echo "Start configuration keyboard..."
+ibus-daemon -rdx
+im-config -n ibus
+echo "Done..."
+exit 0
